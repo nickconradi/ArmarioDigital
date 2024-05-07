@@ -15,3 +15,7 @@ VALUES (?, ?, ?, ?);
 --Fornecedores
 INSERT INTO Fornecedores (Email, Nome_Fornecedor, Nome_Ctt, Telefone, CEP)
 VALUES (?, ?, ?, ?, ?, ?);
+
+--Vendas
+INSERT INTO Vendas (Hora_venda, Quantidade, MTD_Pagamento, Funcionarios_idFuncionarios, Cliente_idCliente1)
+VALUES (?, ?, ?, ?, ?);
