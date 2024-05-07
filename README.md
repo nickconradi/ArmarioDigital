@@ -5,7 +5,11 @@ O armário digital é um software voltado para a área têxtil, que será instal
 ![img_der_ArmarioDigital](https://github.com/nickconradi/ArmarioDigital/assets/145594857/ae1f4e04-52a6-4aae-82be-b5ce72253227)
 
 Nicole Conradi 
+
 Letícia Gehrke Bruda 
+
 Henrique Lorenzo H. C. da Silva 
+
 Gabriel Theodor C. da Silva
+
 Isaque José Padilha 
