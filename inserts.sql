@@ -6,6 +6,10 @@ INSERT INTO funcionarios (idFuncionarios,Salario,CPF,NomeFuncionario,Login,Senha
 INSERT INTO Carrinho (Vendas_idVendas, Produtos_idProdutos, Quantidade)
 VALUES (?, ?, ?);
 
+--Produtos
+
+INSERT INTO Produtos (Tamanho, Categoria, Preco, QT_Estoque, Cor, Marca, Fornecedores_idFornecedores)
+VALUES (?,?,?,?,?,?,?);
 
 --Cliente 
 
