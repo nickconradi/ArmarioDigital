@@ -11,6 +11,9 @@ VALUES (?, ?, ?);
 INSERT INTO Produtos (Tamanho, Categoria, Preco, QT_Estoque, Cor, Marca, Fornecedores_idFornecedores)
 VALUES (?,?,?,?,?,?,?);
 
+INSERT INTO Produtos (Tamanho, Categoria, Preco, QT_Estoque, Cor, Marca, Fornecedores_idFornecedores)
+VALUES (M, Esporte, 40.00, 86, Branco, Beagle), (GG, Casual, 30.00, 94, Preto, Gucci), (P, Formal, 90.00, 52, Azul, Louis vuitton);
+
 --Cliente 
 
 INSERT INTO Clientes (Nome_Clientes, CPF, Email, Telefone);
