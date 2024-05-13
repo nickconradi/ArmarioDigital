@@ -8,7 +8,7 @@ SELECT * FROM clientes;
 
 
 --Select where
-SELECT * FROM clientes WHERE CPF = ? AND Email = ?;
+SELECT * FROM funcionarios WHERE Email LIKE ? AND Senha LIKE ?;
 
 --Select Join
 select * from vendas as v
