@@ -15,13 +15,11 @@ USE ARMARIODIGITAL;
 -- Table Funcionarios
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS Funcionarios (
-    idFuncionarios INT NOT NULL,
-    Salario DECIMAL(30) NOT NULL,
-    CPF VARCHAR(30) NOT NULL,
-    NomeFuncionario VARCHAR(45) NOT NULL,
-    Login VARCHAR(30) NOT NULL,
-    Senha VARCHAR(15) NOT NULL,
-    PRIMARY KEY (idFuncionarios)
+	CPF VARCHAR(30) NOT NULL PRIMARY KEY,
+    Salario DECIMAL(30,2) NOT NULL,
+    Nome VARCHAR(45) NOT NULL,
+    Email VARCHAR(30) NOT NULL,
+    Senha VARCHAR(15) NOT NULL
 );
 
 -- -----------------------------------------------------
@@ -73,10 +71,10 @@ CREATE TABLE IF NOT EXISTS Vendas (
     Hora_venda TIME(6) NOT NULL,
     Quantidade INT NOT NULL,
     MTD_Pagamento VARCHAR(30) NOT NULL,
-    Funcionarios_idFuncionarios INT NOT NULL,
+    Funcionarios_idFuncionario VARCHAR (30) NOT NULL,
     Cliente_idCliente1 INT NOT NULL,
     PRIMARY KEY (idVendas),
-    FOREIGN KEY (Funcionarios_idFuncionarios) REFERENCES Funcionarios (idFuncionarios),
+    FOREIGN KEY (Funcionarios_idFuncionario) REFERENCES Funcionarios (CPF),
     FOREIGN KEY (Cliente_idCliente1) REFERENCES Clientes (idCliente)
 );
 
