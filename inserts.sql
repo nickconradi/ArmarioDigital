@@ -1,5 +1,11 @@
 --Funcionarios
+-- Java
 INSERT INTO funcionarios (idFuncionarios,Salario,CPF,NomeFuncionario,Login,Senha) VALUES (?,?,?,?,?,?);
+--Normal
+INSERT INTO funcionarios (CPF, Nome, Salario, Email, Senha) VALUES ('589.469.822-02', 'Bernardo Souza', 1114.59, 'bsouza0@gmail.com', '127066+rJ');
+INSERT INTO funcionarios (CPF, Nome, Salario, Email, Senha) VALUES ('547.152.926-03', 'Hugo Rocha', 1950.55, 'hrocha1@gmail.com', '197527M,ZR<x3');
+INSERT INTO funcionarios (CPF, Nome, Salario, Email, Senha) VALUES ('317.523.170-04', 'Alessandro Mattos', 1106.86, 'alemattos2@gmail.com', '345480BePOM{');
+
 
 --Carrinho  
 
