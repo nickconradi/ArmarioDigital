@@ -37,3 +37,7 @@ INsert Into Fornecedores (email, Nome_Fornecedor, Nome_Ctt, Telefone, CEP) VALUE
 --Vendas
 INSERT INTO Vendas (Hora_venda, Quantidade, MTD_Pagamento, Funcionarios_idFuncionarios, Cliente_idCliente1)
 VALUES (?, ?, ?, ?, ?);
+
+INSERT INTO Vendas (Hora_venda, Quantidade, MTD_Pagamento, Funcionarios_idFuncionarios, Cliente_idCliente) VALUES ('9:43 AM', 7, 'jcb', '120-19-2001', 'Leeanne');
+INSERT INTO Vendas (Hora_venda, Quantidade, MTD_Pagamento, Funcionarios_idFuncionarios, Cliente_idCliente) VALUES ('8:35 PM', 20, 'diners-club-enroute', '334-10-9348', 'Johny');
+INSERT INTO Vendas (Hora_venda, Quantidade, MTD_Pagamento, Funcionarios_idFuncionarios, Cliente_idCliente) VALUES ('1:29 AM', 22, 'laser', '446-68-5246', 'Forster');
