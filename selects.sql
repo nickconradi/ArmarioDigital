@@ -1,4 +1,4 @@
---Funcionarios
+ --Funcionarios
 SELECT * FROM funcionarios;
 
 SELECT * FROM clientes WHERE CPF = ? AND Email = ?;
@@ -7,3 +7,5 @@ SELECT * FROM clientes WHERE CPF = ? AND Email = ?;
 SELECT * FROM Produtos;
 
 
+--Vendas
+SELECT * FROM vendas;
