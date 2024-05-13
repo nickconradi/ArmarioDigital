@@ -18,7 +18,10 @@ INSERT INTO Produtos (Tamanho, Categoria, Preco, QT_Estoque, Cor, Marca, Fornece
 VALUES (?,?,?,?,?,?,?);
 
 INSERT INTO Produtos (Tamanho, Categoria, Preco, QT_Estoque, Cor, Marca, Fornecedores_idFornecedores)
-VALUES (M, Esporte, 40.00, 86, Branco, Beagle), (GG, Casual, 30.00, 94, Preto, Gucci), (P, Formal, 90.00, 52, Azul, Louis vuitton);
+VALUES ('M', 'Esporte', 40.00, 86, 'Branco', 'Beagle'),
+       ('GG', 'Casual', 30.00, 94, 'Preto', 'Gucci'),
+       ('P', 'Formal', 90.00, 52, 'Azul', 'Louis Vuitton');
+
 
 --Cliente 
 
@@ -29,17 +32,14 @@ VALUES (?, ?, ?, ?);
 INSERT INTO Fornecedores (Email, Nome_Fornecedor, Nome_Ctt, Telefone)
 VALUES (?, ?, ?, ?, ?);
 
-<<<<<<< HEAD
 INSERT INTO Fornecedores (email, Nome_Fornecedor, Nome_Ctt, Telefone) VALUES ('amenhci0@goodreads.com', 'Aeriel Menhci', 'Aeriel', '283-752-9264');
 INSERT INTO Fornecedores (email, Nome_Fornecedor, Nome_Ctt, Telefone) VALUES ('zluggar1@dailymotion.com', 'Zahara Luggar', 'Zahara', '872-971-3837');
 INsert Into Fornecedores (email, Nome_Fornecedor, Nome_Ctt, Telefone) VALUES ('smcquirk2@facebook.com', 'Sher McQuirk', 'Sher', '620-419-8366');
-=======
-INSERT INTO Fornecedores (email, Nome_Fornecedor, Nome_Ctt, Telefone, CEP) VALUES ('amenhci0@goodreads.com', 'Aeriel Menhci', 'Aeriel', '283-752-9264', '9');
-INSERT INTO Fornecedores (email, Nome_Fornecedor, Nome_Ctt, Telefone, CEP) VALUES ('zluggar1@dailymotion.com', 'Zahara Luggar', 'Zahara', '872-971-3837', '8436');
-INsert Into Fornecedores (email, Nome_Fornecedor, Nome_Ctt, Telefone, CEP) VALUES ('smcquirk2@facebook.com', 'Sher McQuirk', 'Sher', '620-419-8366', '971');
->>>>>>> 118e5b716a7e4e5f93b48630122d84d2ca9f2dca
-
 
 --Vendas
 INSERT INTO Vendas (Hora_venda, Quantidade, MTD_Pagamento, Funcionarios_idFuncionarios, Cliente_idCliente1)
 VALUES (?, ?, ?, ?, ?);
+
+INSERT INTO Vendas (Hora_venda, Quantidade, MTD_Pagamento, Funcionarios_idFuncionarios, Cliente_idCliente) VALUES ('9:43 AM', 7, 'jcb', '120-19-2001', 'Leeanne');
+INSERT INTO Vendas (Hora_venda, Quantidade, MTD_Pagamento, Funcionarios_idFuncionarios, Cliente_idCliente) VALUES ('8:35 PM', 20, 'diners-club-enroute', '334-10-9348', 'Johny');
+INSERT INTO Vendas (Hora_venda, Quantidade, MTD_Pagamento, Funcionarios_idFuncionarios, Cliente_idCliente) VALUES ('1:29 AM', 22, 'laser', '446-68-5246', 'Forster');
