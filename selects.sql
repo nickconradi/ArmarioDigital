@@ -6,4 +6,7 @@ SELECT * FROM clientes WHERE CPF = ? AND Email = ?;
 --Produtos
 SELECT * FROM Produtos;
 
+--Fornecedores
+SELECT * FROM Fornecedores;
+
 
