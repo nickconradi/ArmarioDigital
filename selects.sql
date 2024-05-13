@@ -1,7 +1,10 @@
 --Select all
 SELECT * FROM funcionarios;
-SELECT * FROM Produtos;
-SELECT * FROM Fornecedores; 
+SELECT * FROM produtos;
+SELECT * FROM fornecedores; 
+SELECT * FROM carrinho;
+SELECT * FROM vendas;
+SELECT * FROM clientes;
 
 
 --Select where
