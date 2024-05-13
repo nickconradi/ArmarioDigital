@@ -26,12 +26,12 @@ INSERT INTO Clientes (Nome_Clientes, CPF, Email, Telefone);
 VALUES (?, ?, ?, ?);
 
 --Fornecedores
-INSERT INTO Fornecedores (Email, Nome_Fornecedor, Nome_Ctt, Telefone, CEP)
-VALUES (?, ?, ?, ?, ?, ?);
+INSERT INTO Fornecedores (Email, Nome_Fornecedor, Nome_Ctt, Telefone)
+VALUES (?, ?, ?, ?, ?);
 
-INSERT INTO Fornecedores (email, Nome_Fornecedor, Nome_Ctt, Telefone, CEP) VALUES ('amenhci0@goodreads.com', 'Aeriel Menhci', 'Aeriel', '283-752-9264', '995');
-INSERT INTO Fornecedores (email, Nome_Fornecedor, Nome_Ctt, Telefone, CEP) VALUES ('zluggar1@dailymotion.com', 'Zahara Luggar', 'Zahara', '872-971-3837', '8436');
-INsert Into Fornecedores (email, Nome_Fornecedor, Nome_Ctt, Telefone, CEP) VALUES ('smcquirk2@facebook.com', 'Sher McQuirk', 'Sher', '620-419-8366', '971');
+INSERT INTO Fornecedores (email, Nome_Fornecedor, Nome_Ctt, Telefone) VALUES ('amenhci0@goodreads.com', 'Aeriel Menhci', 'Aeriel', '283-752-9264');
+INSERT INTO Fornecedores (email, Nome_Fornecedor, Nome_Ctt, Telefone) VALUES ('zluggar1@dailymotion.com', 'Zahara Luggar', 'Zahara', '872-971-3837');
+INsert Into Fornecedores (email, Nome_Fornecedor, Nome_Ctt, Telefone) VALUES ('smcquirk2@facebook.com', 'Sher McQuirk', 'Sher', '620-419-8366');
 
 
 --Vendas
